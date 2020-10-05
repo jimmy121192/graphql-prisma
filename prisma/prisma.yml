@@ -1,0 +1,4 @@
+#endpoint: ${env:PRISMA_DEPLOY_ENDPOINT}
+endpoint: https://jimmy-graphql-7e07db5017.herokuapp.com/graphql-prisma/dev
+datamodel: datamodel.prisma
+secret: ${env:PRISMA_SECRET}
